@@ -1,0 +1,21 @@
+*   padding-top: +a% a được hiểu là %tính theo chiều nga
+ví dụ a = 50 thì hiểu là 50% của chiều ngang
+*   psuedo classes: lớp giả {
+    :root tham chiếu đến các phần tử trong cặp thẻ html
+    :first-child thằng con đầu tiên của thẻ cha
+    :last-child thằng con cuối cùng của thẻ cha
+}
+* linear-gradient(a, b, c): a được hiểu là độ , b là màu dưới, c là màu trên
+a=0 nghĩa là chuyển từ dưới lên trên từ màu b sang màu c
+a=180 độ thì chuyển màu  c sang màu b từ dưới lên
+*user-select : none không cho người dùng copy dữ liệu text
+
+* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;: giới hạn số dòng hiện thị trong trường hợp này dòng số 2 có dấu 3 chấm
+transform: scale(a) là thu nhỏ tỉ lệ so với ban đầu
+
+
+*from scale(0) to scale(1) hiểu là tỉ lệ hình ảnh xuất hiện từ 0 đến 100%
+
+* box-sizing: border-box: thuộc tính này có nghĩa là nó sẽ thêm cả phần border và padding vào 
